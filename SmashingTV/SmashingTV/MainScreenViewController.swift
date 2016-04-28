@@ -86,7 +86,6 @@ extension MainScreenViewController : UITableViewDelegate, UITableViewDataSource 
     }
     
     func adjustCountdownTimer() {
-        print(countDownTimer?.fireDate)
         if self.refreshTime != 0 {
             self.refreshTime -= 1
         } else {
