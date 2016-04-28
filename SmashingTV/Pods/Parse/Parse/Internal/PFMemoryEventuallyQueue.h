@@ -7,17 +7,14 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <Foundation/Foundation.h>
+#import "PFEventuallyQueue.h"
 
-#import "PFPushPrivate.h"
-
-PF_TV_UNAVAILABLE_WARNING
+PF_IOS_UNAVAILABLE_WARNING
+PF_OSX_UNAVAILABLE_WARNING
 PF_WATCH_UNAVAILABLE_WARNING
 
-NS_ASSUME_NONNULL_BEGIN
+PF_IOS_UNAVAILABLE PF_OSX_UNAVAILABLE PF_WATCH_UNAVAILABLE @interface PFMemoryEventuallyQueue : PFEventuallyQueue
 
-PF_TV_UNAVAILABLE PF_WATCH_UNAVAILABLE @interface PFPushUtilities : NSObject <PFPushInternalUtils>
++ (instancetype)newDefaultMemoryEventuallyQueueWithDataSource:(id<PFCommandRunnerProvider>)dataSource;
 
 @end
-
-NS_ASSUME_NONNULL_END

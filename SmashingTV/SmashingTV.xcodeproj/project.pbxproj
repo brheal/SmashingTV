@@ -1,1349 +1,721 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2F893E69C789889FCD534E22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>3037CF3208CEBB185C674BFC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D0F95DB1BCCDEB400482C6F5</string>
-				<string>5335D0C31B21A1CE66A0D59B</string>
-				<string>D6B6BAE6FE198DBCD97AB6FE</string>
-				<string>6CA821A73D21F2C67BB6E08B</string>
-				<string>87C18430C63EABFBB5A3F76F</string>
-				<string>3E98AAB87B7F439D8AC890AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A08A1E3EE26B321B62F8425</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7829A6B0DAAA4CDB913E2C14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3BB8E5188F29AB7A38DC6497</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>3E98AAB87B7F439D8AC890AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTVUITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5335D0C31B21A1CE66A0D59B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTV.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57DA25661EFC81C0416935D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>67116A6F1CD19BCF0029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A7A1CD19BCF0029F2BA</string>
-				<string>67116A8C1CD19BD00029F2BA</string>
-				<string>67116A971CD19BD00029F2BA</string>
-				<string>67116A791CD19BCF0029F2BA</string>
-				<string>3037CF3208CEBB185C674BFC</string>
-				<string>B3AF8C63D5884CE526986E31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A701CD19BCF0029F2BA</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Timothy Barrett</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>67116A771CD19BCF0029F2BA</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>67116A881CD19BD00029F2BA</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>DevelopmentTeam</key>
-						<string>ZL97M23RXJ</string>
-						<key>TestTargetID</key>
-						<string>67116A771CD19BCF0029F2BA</string>
-					</dict>
-					<key>67116A931CD19BD00029F2BA</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>DevelopmentTeam</key>
-						<string>ZL97M23RXJ</string>
-						<key>TestTargetID</key>
-						<string>67116A771CD19BCF0029F2BA</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>67116A731CD19BCF0029F2BA</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>67116A6F1CD19BCF0029F2BA</string>
-			<key>productRefGroup</key>
-			<string>67116A791CD19BCF0029F2BA</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>67116A771CD19BCF0029F2BA</string>
-				<string>67116A881CD19BD00029F2BA</string>
-				<string>67116A931CD19BD00029F2BA</string>
-			</array>
-		</dict>
-		<key>67116A731CD19BCF0029F2BA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>67116A9B1CD19BD00029F2BA</string>
-				<string>67116A9C1CD19BD00029F2BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67116A741CD19BCF0029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>67116A7E1CD19BCF0029F2BA</string>
-				<string>67116A7C1CD19BCF0029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A751CD19BCF0029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A920CF7B377B84BB6DE0A4AE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A761CD19BCF0029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>67116A831CD19BCF0029F2BA</string>
-				<string>67116A811CD19BCF0029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A771CD19BCF0029F2BA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>67116A9D1CD19BD00029F2BA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>57DA25661EFC81C0416935D9</string>
-				<string>67116A741CD19BCF0029F2BA</string>
-				<string>67116A751CD19BCF0029F2BA</string>
-				<string>67116A761CD19BCF0029F2BA</string>
-				<string>3BB8E5188F29AB7A38DC6497</string>
-				<string>2F893E69C789889FCD534E22</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SmashingTV</string>
-			<key>productName</key>
-			<string>SmashingTV</string>
-			<key>productReference</key>
-			<string>67116A781CD19BCF0029F2BA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>67116A781CD19BCF0029F2BA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SmashingTV.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>67116A791CD19BCF0029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A781CD19BCF0029F2BA</string>
-				<string>67116A891CD19BD00029F2BA</string>
-				<string>67116A941CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A7A1CD19BCF0029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A7B1CD19BCF0029F2BA</string>
-				<string>67116A7D1CD19BCF0029F2BA</string>
-				<string>67116A7F1CD19BCF0029F2BA</string>
-				<string>67116A821CD19BCF0029F2BA</string>
-				<string>67116A841CD19BCF0029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SmashingTV</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A7B1CD19BCF0029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A7C1CD19BCF0029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A7B1CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A7D1CD19BCF0029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A7E1CD19BCF0029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A7D1CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A7F1CD19BCF0029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A801CD19BCF0029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A801CD19BCF0029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A811CD19BCF0029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A7F1CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A821CD19BCF0029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A831CD19BCF0029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A821CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A841CD19BCF0029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A851CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>67116A8E1CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A861CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3A08A1E3EE26B321B62F8425</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A871CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A881CD19BD00029F2BA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>67116AA01CD19BD00029F2BA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9A941593C93A28C2322A8488</string>
-				<string>67116A851CD19BD00029F2BA</string>
-				<string>67116A861CD19BD00029F2BA</string>
-				<string>67116A871CD19BD00029F2BA</string>
-				<string>F9FAEF6895393E513BDB589E</string>
-				<string>6E9DD01BF7C5ACE760D58DA7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>67116A8B1CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SmashingTVTests</string>
-			<key>productName</key>
-			<string>SmashingTVTests</string>
-			<key>productReference</key>
-			<string>67116A891CD19BD00029F2BA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>67116A891CD19BD00029F2BA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SmashingTVTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>67116A8A1CD19BD00029F2BA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>67116A701CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>67116A771CD19BCF0029F2BA</string>
-			<key>remoteInfo</key>
-			<string>SmashingTV</string>
-		</dict>
-		<key>67116A8B1CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>67116A771CD19BCF0029F2BA</string>
-			<key>targetProxy</key>
-			<string>67116A8A1CD19BD00029F2BA</string>
-		</dict>
-		<key>67116A8C1CD19BD00029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A8D1CD19BD00029F2BA</string>
-				<string>67116A8F1CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SmashingTVTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A8D1CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmashingTVTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A8E1CD19BD00029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A8D1CD19BD00029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A8F1CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A901CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>67116A991CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A911CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>73CA7D0797DC63AEBC898A0A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A921CD19BD00029F2BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>67116A931CD19BD00029F2BA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>67116AA31CD19BD00029F2BA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E2793935F5028A34FC496866</string>
-				<string>67116A901CD19BD00029F2BA</string>
-				<string>67116A911CD19BD00029F2BA</string>
-				<string>67116A921CD19BD00029F2BA</string>
-				<string>7612FE8010AF08B5161A5A8A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>67116A961CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SmashingTVUITests</string>
-			<key>productName</key>
-			<string>SmashingTVUITests</string>
-			<key>productReference</key>
-			<string>67116A941CD19BD00029F2BA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>67116A941CD19BD00029F2BA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SmashingTVUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>67116A951CD19BD00029F2BA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>67116A701CD19BCF0029F2BA</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>67116A771CD19BCF0029F2BA</string>
-			<key>remoteInfo</key>
-			<string>SmashingTV</string>
-		</dict>
-		<key>67116A961CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>67116A771CD19BCF0029F2BA</string>
-			<key>targetProxy</key>
-			<string>67116A951CD19BD00029F2BA</string>
-		</dict>
-		<key>67116A971CD19BD00029F2BA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67116A981CD19BD00029F2BA</string>
-				<string>67116A9A1CD19BD00029F2BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>SmashingTVUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A981CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>SmashingTVUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A991CD19BD00029F2BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67116A981CD19BD00029F2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67116A9A1CD19BD00029F2BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67116A9B1CD19BD00029F2BA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>appletvos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>3</string>
-				<key>TVOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>67116A9C1CD19BD00029F2BA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>appletvos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>3</string>
-				<key>TVOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>67116A9D1CD19BD00029F2BA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>67116A9E1CD19BD00029F2BA</string>
-				<string>67116A9F1CD19BD00029F2BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67116A9E1CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D0F95DB1BCCDEB400482C6F5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>App Icon &amp; Top Shelf Image</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTV/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTV</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>67116A9F1CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5335D0C31B21A1CE66A0D59B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>App Icon &amp; Top Shelf Image</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTV/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTV</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>67116AA01CD19BD00029F2BA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>67116AA11CD19BD00029F2BA</string>
-				<string>67116AA21CD19BD00029F2BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67116AA11CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D6B6BAE6FE198DBCD97AB6FE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTVTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTVTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>67116AA21CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6CA821A73D21F2C67BB6E08B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTVTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTVTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>67116AA31CD19BD00029F2BA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>67116AA41CD19BD00029F2BA</string>
-				<string>67116AA51CD19BD00029F2BA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67116AA41CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>87C18430C63EABFBB5A3F76F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTVUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTVUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>SmashingTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>67116AA51CD19BD00029F2BA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3E98AAB87B7F439D8AC890AD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>SmashingTVUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tsb.SmashingTVUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>SmashingTV</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6CA821A73D21F2C67BB6E08B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTVTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E9DD01BF7C5ACE760D58DA7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>73CA7D0797DC63AEBC898A0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD08D6F95E7925B2C5D98922</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7612FE8010AF08B5161A5A8A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7829A6B0DAAA4CDB913E2C14</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_SmashingTVTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>87C18430C63EABFBB5A3F76F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTVUITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A941593C93A28C2322A8488</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A920CF7B377B84BB6DE0A4AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4A8F1DF1CC5C6B04ADF9ED5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B3AF8C63D5884CE526986E31</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C4A8F1DF1CC5C6B04ADF9ED5</string>
-				<string>7829A6B0DAAA4CDB913E2C14</string>
-				<string>FD08D6F95E7925B2C5D98922</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4A8F1DF1CC5C6B04ADF9ED5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_SmashingTV.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D0F95DB1BCCDEB400482C6F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTV.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6B6BAE6FE198DBCD97AB6FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-SmashingTVTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2793935F5028A34FC496866</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F9FAEF6895393E513BDB589E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FD08D6F95E7925B2C5D98922</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_SmashingTVUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>67116A701CD19BCF0029F2BA</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A08A1E3EE26B321B62F8425 /* Pods_SmashingTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7829A6B0DAAA4CDB913E2C14 /* Pods_SmashingTVTests.framework */; };
+		67116A7C1CD19BCF0029F2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */; };
+		67116A811CD19BCF0029F2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67116A7F1CD19BCF0029F2BA /* Main.storyboard */; };
+		67116A831CD19BCF0029F2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67116A821CD19BCF0029F2BA /* Assets.xcassets */; };
+		67116A8E1CD19BD00029F2BA /* SmashingTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */; };
+		67116A991CD19BD00029F2BA /* SmashingTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */; };
+		67116AA81CD19E090029F2BA /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116AA71CD19E090029F2BA /* MainScreenViewController.swift */; };
+		67116AAB1CD19E2B0029F2BA /* LeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116AAA1CD19E2B0029F2BA /* LeaderCell.swift */; };
+		67116AAD1CD19E880029F2BA /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116AAC1CD19E880029F2BA /* GameStore.swift */; };
+		67116AAF1CD19EA70029F2BA /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116AAE1CD19EA70029F2BA /* Leader.swift */; };
+		67116AB11CD19EB60029F2BA /* LeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67116AB01CD19EB60029F2BA /* LeaderCell.xib */; };
+		73CA7D0797DC63AEBC898A0A /* Pods_SmashingTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD08D6F95E7925B2C5D98922 /* Pods_SmashingTVUITests.framework */; };
+		A920CF7B377B84BB6DE0A4AE /* Pods_SmashingTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A8F1DF1CC5C6B04ADF9ED5 /* Pods_SmashingTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67116A8A1CD19BD00029F2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67116A701CD19BCF0029F2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67116A771CD19BCF0029F2BA;
+			remoteInfo = SmashingTV;
+		};
+		67116A951CD19BD00029F2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67116A701CD19BCF0029F2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67116A771CD19BCF0029F2BA;
+			remoteInfo = SmashingTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E98AAB87B7F439D8AC890AD /* Pods-SmashingTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5335D0C31B21A1CE66A0D59B /* Pods-SmashingTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV.release.xcconfig"; sourceTree = "<group>"; };
+		67116A781CD19BCF0029F2BA /* SmashingTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashingTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67116A801CD19BCF0029F2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67116A821CD19BCF0029F2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67116A841CD19BCF0029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashingTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashingTVTests.swift; sourceTree = "<group>"; };
+		67116A8F1CD19BD00029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashingTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashingTVUITests.swift; sourceTree = "<group>"; };
+		67116A9A1CD19BD00029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67116AA71CD19E090029F2BA /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		67116AAA1CD19E2B0029F2BA /* LeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderCell.swift; sourceTree = "<group>"; };
+		67116AAC1CD19E880029F2BA /* GameStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		67116AAE1CD19EA70029F2BA /* Leader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		67116AB01CD19EB60029F2BA /* LeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderCell.xib; sourceTree = "<group>"; };
+		6CA821A73D21F2C67BB6E08B /* Pods-SmashingTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		7829A6B0DAAA4CDB913E2C14 /* Pods_SmashingTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmashingTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C18430C63EABFBB5A3F76F /* Pods-SmashingTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A8F1DF1CC5C6B04ADF9ED5 /* Pods_SmashingTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmashingTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F95DB1BCCDEB400482C6F5 /* Pods-SmashingTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B6BAE6FE198DBCD97AB6FE /* Pods-SmashingTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmashingTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD08D6F95E7925B2C5D98922 /* Pods_SmashingTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmashingTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67116A751CD19BCF0029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A920CF7B377B84BB6DE0A4AE /* Pods_SmashingTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A861CD19BD00029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A08A1E3EE26B321B62F8425 /* Pods_SmashingTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A911CD19BD00029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CA7D0797DC63AEBC898A0A /* Pods_SmashingTVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3037CF3208CEBB185C674BFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F95DB1BCCDEB400482C6F5 /* Pods-SmashingTV.debug.xcconfig */,
+				5335D0C31B21A1CE66A0D59B /* Pods-SmashingTV.release.xcconfig */,
+				D6B6BAE6FE198DBCD97AB6FE /* Pods-SmashingTVTests.debug.xcconfig */,
+				6CA821A73D21F2C67BB6E08B /* Pods-SmashingTVTests.release.xcconfig */,
+				87C18430C63EABFBB5A3F76F /* Pods-SmashingTVUITests.debug.xcconfig */,
+				3E98AAB87B7F439D8AC890AD /* Pods-SmashingTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67116A6F1CD19BCF0029F2BA = {
+			isa = PBXGroup;
+			children = (
+				67116A7A1CD19BCF0029F2BA /* SmashingTV */,
+				67116A8C1CD19BD00029F2BA /* SmashingTVTests */,
+				67116A971CD19BD00029F2BA /* SmashingTVUITests */,
+				67116A791CD19BCF0029F2BA /* Products */,
+				3037CF3208CEBB185C674BFC /* Pods */,
+				B3AF8C63D5884CE526986E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67116A791CD19BCF0029F2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67116A781CD19BCF0029F2BA /* SmashingTV.app */,
+				67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */,
+				67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67116A7A1CD19BCF0029F2BA /* SmashingTV */ = {
+			isa = PBXGroup;
+			children = (
+				67D53FAC1CD1A12A0060EC24 /* Model */,
+				67116AA61CD19DF20029F2BA /* Main View */,
+				67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */,
+				67116A7F1CD19BCF0029F2BA /* Main.storyboard */,
+				67116A821CD19BCF0029F2BA /* Assets.xcassets */,
+				67116A841CD19BCF0029F2BA /* Info.plist */,
+			);
+			path = SmashingTV;
+			sourceTree = "<group>";
+		};
+		67116A8C1CD19BD00029F2BA /* SmashingTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */,
+				67116A8F1CD19BD00029F2BA /* Info.plist */,
+			);
+			path = SmashingTVTests;
+			sourceTree = "<group>";
+		};
+		67116A971CD19BD00029F2BA /* SmashingTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */,
+				67116A9A1CD19BD00029F2BA /* Info.plist */,
+			);
+			path = SmashingTVUITests;
+			sourceTree = "<group>";
+		};
+		67116AA61CD19DF20029F2BA /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				67116AA91CD19E0D0029F2BA /* Leader Board Cell */,
+				67116AA71CD19E090029F2BA /* MainScreenViewController.swift */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		67116AA91CD19E0D0029F2BA /* Leader Board Cell */ = {
+			isa = PBXGroup;
+			children = (
+				67116AAA1CD19E2B0029F2BA /* LeaderCell.swift */,
+				67116AB01CD19EB60029F2BA /* LeaderCell.xib */,
+			);
+			name = "Leader Board Cell";
+			sourceTree = "<group>";
+		};
+		67D53FAC1CD1A12A0060EC24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67116AAC1CD19E880029F2BA /* GameStore.swift */,
+				67116AAE1CD19EA70029F2BA /* Leader.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3AF8C63D5884CE526986E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4A8F1DF1CC5C6B04ADF9ED5 /* Pods_SmashingTV.framework */,
+				7829A6B0DAAA4CDB913E2C14 /* Pods_SmashingTVTests.framework */,
+				FD08D6F95E7925B2C5D98922 /* Pods_SmashingTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67116A771CD19BCF0029F2BA /* SmashingTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116A9D1CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTV" */;
+			buildPhases = (
+				57DA25661EFC81C0416935D9 /* Check Pods Manifest.lock */,
+				67116A741CD19BCF0029F2BA /* Sources */,
+				67116A751CD19BCF0029F2BA /* Frameworks */,
+				67116A761CD19BCF0029F2BA /* Resources */,
+				3BB8E5188F29AB7A38DC6497 /* Embed Pods Frameworks */,
+				2F893E69C789889FCD534E22 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmashingTV;
+			productName = SmashingTV;
+			productReference = 67116A781CD19BCF0029F2BA /* SmashingTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67116A881CD19BD00029F2BA /* SmashingTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116AA01CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVTests" */;
+			buildPhases = (
+				9A941593C93A28C2322A8488 /* Check Pods Manifest.lock */,
+				67116A851CD19BD00029F2BA /* Sources */,
+				67116A861CD19BD00029F2BA /* Frameworks */,
+				67116A871CD19BD00029F2BA /* Resources */,
+				F9FAEF6895393E513BDB589E /* Embed Pods Frameworks */,
+				6E9DD01BF7C5ACE760D58DA7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67116A8B1CD19BD00029F2BA /* PBXTargetDependency */,
+			);
+			name = SmashingTVTests;
+			productName = SmashingTVTests;
+			productReference = 67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67116A931CD19BD00029F2BA /* SmashingTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116AA31CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVUITests" */;
+			buildPhases = (
+				E2793935F5028A34FC496866 /* Check Pods Manifest.lock */,
+				67116A901CD19BD00029F2BA /* Sources */,
+				67116A911CD19BD00029F2BA /* Frameworks */,
+				67116A921CD19BD00029F2BA /* Resources */,
+				7612FE8010AF08B5161A5A8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67116A961CD19BD00029F2BA /* PBXTargetDependency */,
+			);
+			name = SmashingTVUITests;
+			productName = SmashingTVUITests;
+			productReference = 67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67116A701CD19BCF0029F2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timothy Barrett";
+				TargetAttributes = {
+					67116A771CD19BCF0029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					67116A881CD19BD00029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZL97M23RXJ;
+						TestTargetID = 67116A771CD19BCF0029F2BA;
+					};
+					67116A931CD19BD00029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZL97M23RXJ;
+						TestTargetID = 67116A771CD19BCF0029F2BA;
+					};
+				};
+			};
+			buildConfigurationList = 67116A731CD19BCF0029F2BA /* Build configuration list for PBXProject "SmashingTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67116A6F1CD19BCF0029F2BA;
+			productRefGroup = 67116A791CD19BCF0029F2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67116A771CD19BCF0029F2BA /* SmashingTV */,
+				67116A881CD19BD00029F2BA /* SmashingTVTests */,
+				67116A931CD19BD00029F2BA /* SmashingTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67116A761CD19BCF0029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116AB11CD19EB60029F2BA /* LeaderCell.xib in Resources */,
+				67116A831CD19BCF0029F2BA /* Assets.xcassets in Resources */,
+				67116A811CD19BCF0029F2BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A871CD19BD00029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A921CD19BD00029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F893E69C789889FCD534E22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB8E5188F29AB7A38DC6497 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTV/Pods-SmashingTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57DA25661EFC81C0416935D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9DD01BF7C5ACE760D58DA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7612FE8010AF08B5161A5A8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVUITests/Pods-SmashingTVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A941593C93A28C2322A8488 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2793935F5028A34FC496866 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FAEF6895393E513BDB589E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmashingTVTests/Pods-SmashingTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67116A741CD19BCF0029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116AAF1CD19EA70029F2BA /* Leader.swift in Sources */,
+				67116A7C1CD19BCF0029F2BA /* AppDelegate.swift in Sources */,
+				67116AAD1CD19E880029F2BA /* GameStore.swift in Sources */,
+				67116AAB1CD19E2B0029F2BA /* LeaderCell.swift in Sources */,
+				67116AA81CD19E090029F2BA /* MainScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A851CD19BD00029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A8E1CD19BD00029F2BA /* SmashingTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A901CD19BD00029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A991CD19BD00029F2BA /* SmashingTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67116A8B1CD19BD00029F2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67116A771CD19BCF0029F2BA /* SmashingTV */;
+			targetProxy = 67116A8A1CD19BD00029F2BA /* PBXContainerItemProxy */;
+		};
+		67116A961CD19BD00029F2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67116A771CD19BCF0029F2BA /* SmashingTV */;
+			targetProxy = 67116A951CD19BD00029F2BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67116A7F1CD19BCF0029F2BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67116A801CD19BCF0029F2BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67116A9B1CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		67116A9C1CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67116A9E1CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F95DB1BCCDEB400482C6F5 /* Pods-SmashingTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmashingTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67116A9F1CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335D0C31B21A1CE66A0D59B /* Pods-SmashingTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SmashingTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67116AA11CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B6BAE6FE198DBCD97AB6FE /* Pods-SmashingTVTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashingTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV";
+			};
+			name = Debug;
+		};
+		67116AA21CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA821A73D21F2C67BB6E08B /* Pods-SmashingTVTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashingTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV";
+			};
+			name = Release;
+		};
+		67116AA41CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C18430C63EABFBB5A3F76F /* Pods-SmashingTVUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SmashingTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmashingTV;
+			};
+			name = Debug;
+		};
+		67116AA51CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E98AAB87B7F439D8AC890AD /* Pods-SmashingTVUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SmashingTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmashingTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67116A731CD19BCF0029F2BA /* Build configuration list for PBXProject "SmashingTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116A9B1CD19BD00029F2BA /* Debug */,
+				67116A9C1CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67116A9D1CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116A9E1CD19BD00029F2BA /* Debug */,
+				67116A9F1CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67116AA01CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116AA11CD19BD00029F2BA /* Debug */,
+				67116AA21CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67116AA31CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116AA41CD19BD00029F2BA /* Debug */,
+				67116AA51CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67116A701CD19BCF0029F2BA /* Project object */;
+}
