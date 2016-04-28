@@ -85,6 +85,10 @@ extension MainScreenViewController : UITableViewDelegate, UITableViewDataSource 
         return cell
     }
     
+    func tableView(tableView: UITableView, canFocusRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return false
+    }
+    
     func adjustCountdownTimer() {
         if self.refreshTime != 0 {
             self.refreshTime -= 1
