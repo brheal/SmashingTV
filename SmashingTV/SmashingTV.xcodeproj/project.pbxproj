@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67116A7C1CD19BCF0029F2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */; };
+		67116A7E1CD19BCF0029F2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A7D1CD19BCF0029F2BA /* ViewController.swift */; };
+		67116A811CD19BCF0029F2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67116A7F1CD19BCF0029F2BA /* Main.storyboard */; };
+		67116A831CD19BCF0029F2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67116A821CD19BCF0029F2BA /* Assets.xcassets */; };
+		67116A8E1CD19BD00029F2BA /* SmashingTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */; };
+		67116A991CD19BD00029F2BA /* SmashingTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67116A8A1CD19BD00029F2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67116A701CD19BCF0029F2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67116A771CD19BCF0029F2BA;
+			remoteInfo = SmashingTV;
+		};
+		67116A951CD19BD00029F2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67116A701CD19BCF0029F2BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67116A771CD19BCF0029F2BA;
+			remoteInfo = SmashingTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67116A781CD19BCF0029F2BA /* SmashingTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashingTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67116A7D1CD19BCF0029F2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67116A801CD19BCF0029F2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67116A821CD19BCF0029F2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67116A841CD19BCF0029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashingTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashingTVTests.swift; sourceTree = "<group>"; };
+		67116A8F1CD19BD00029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashingTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashingTVUITests.swift; sourceTree = "<group>"; };
+		67116A9A1CD19BD00029F2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67116A751CD19BCF0029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A861CD19BD00029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A911CD19BD00029F2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67116A6F1CD19BCF0029F2BA = {
+			isa = PBXGroup;
+			children = (
+				67116A7A1CD19BCF0029F2BA /* SmashingTV */,
+				67116A8C1CD19BD00029F2BA /* SmashingTVTests */,
+				67116A971CD19BD00029F2BA /* SmashingTVUITests */,
+				67116A791CD19BCF0029F2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67116A791CD19BCF0029F2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67116A781CD19BCF0029F2BA /* SmashingTV.app */,
+				67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */,
+				67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67116A7A1CD19BCF0029F2BA /* SmashingTV */ = {
+			isa = PBXGroup;
+			children = (
+				67116A7B1CD19BCF0029F2BA /* AppDelegate.swift */,
+				67116A7D1CD19BCF0029F2BA /* ViewController.swift */,
+				67116A7F1CD19BCF0029F2BA /* Main.storyboard */,
+				67116A821CD19BCF0029F2BA /* Assets.xcassets */,
+				67116A841CD19BCF0029F2BA /* Info.plist */,
+			);
+			path = SmashingTV;
+			sourceTree = "<group>";
+		};
+		67116A8C1CD19BD00029F2BA /* SmashingTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				67116A8D1CD19BD00029F2BA /* SmashingTVTests.swift */,
+				67116A8F1CD19BD00029F2BA /* Info.plist */,
+			);
+			path = SmashingTVTests;
+			sourceTree = "<group>";
+		};
+		67116A971CD19BD00029F2BA /* SmashingTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67116A981CD19BD00029F2BA /* SmashingTVUITests.swift */,
+				67116A9A1CD19BD00029F2BA /* Info.plist */,
+			);
+			path = SmashingTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67116A771CD19BCF0029F2BA /* SmashingTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116A9D1CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTV" */;
+			buildPhases = (
+				67116A741CD19BCF0029F2BA /* Sources */,
+				67116A751CD19BCF0029F2BA /* Frameworks */,
+				67116A761CD19BCF0029F2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmashingTV;
+			productName = SmashingTV;
+			productReference = 67116A781CD19BCF0029F2BA /* SmashingTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67116A881CD19BD00029F2BA /* SmashingTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116AA01CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVTests" */;
+			buildPhases = (
+				67116A851CD19BD00029F2BA /* Sources */,
+				67116A861CD19BD00029F2BA /* Frameworks */,
+				67116A871CD19BD00029F2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67116A8B1CD19BD00029F2BA /* PBXTargetDependency */,
+			);
+			name = SmashingTVTests;
+			productName = SmashingTVTests;
+			productReference = 67116A891CD19BD00029F2BA /* SmashingTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67116A931CD19BD00029F2BA /* SmashingTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67116AA31CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVUITests" */;
+			buildPhases = (
+				67116A901CD19BD00029F2BA /* Sources */,
+				67116A911CD19BD00029F2BA /* Frameworks */,
+				67116A921CD19BD00029F2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67116A961CD19BD00029F2BA /* PBXTargetDependency */,
+			);
+			name = SmashingTVUITests;
+			productName = SmashingTVUITests;
+			productReference = 67116A941CD19BD00029F2BA /* SmashingTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67116A701CD19BCF0029F2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Timothy Barrett";
+				TargetAttributes = {
+					67116A771CD19BCF0029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					67116A881CD19BD00029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZL97M23RXJ;
+						TestTargetID = 67116A771CD19BCF0029F2BA;
+					};
+					67116A931CD19BD00029F2BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZL97M23RXJ;
+						TestTargetID = 67116A771CD19BCF0029F2BA;
+					};
+				};
+			};
+			buildConfigurationList = 67116A731CD19BCF0029F2BA /* Build configuration list for PBXProject "SmashingTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67116A6F1CD19BCF0029F2BA;
+			productRefGroup = 67116A791CD19BCF0029F2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67116A771CD19BCF0029F2BA /* SmashingTV */,
+				67116A881CD19BD00029F2BA /* SmashingTVTests */,
+				67116A931CD19BD00029F2BA /* SmashingTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67116A761CD19BCF0029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A831CD19BCF0029F2BA /* Assets.xcassets in Resources */,
+				67116A811CD19BCF0029F2BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A871CD19BD00029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A921CD19BD00029F2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67116A741CD19BCF0029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A7E1CD19BCF0029F2BA /* ViewController.swift in Sources */,
+				67116A7C1CD19BCF0029F2BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A851CD19BD00029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A8E1CD19BD00029F2BA /* SmashingTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67116A901CD19BD00029F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67116A991CD19BD00029F2BA /* SmashingTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67116A8B1CD19BD00029F2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67116A771CD19BCF0029F2BA /* SmashingTV */;
+			targetProxy = 67116A8A1CD19BD00029F2BA /* PBXContainerItemProxy */;
+		};
+		67116A961CD19BD00029F2BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67116A771CD19BCF0029F2BA /* SmashingTV */;
+			targetProxy = 67116A951CD19BD00029F2BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67116A7F1CD19BCF0029F2BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67116A801CD19BCF0029F2BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67116A9B1CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		67116A9C1CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67116A9E1CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmashingTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67116A9F1CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmashingTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67116AA11CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashingTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV";
+			};
+			name = Debug;
+		};
+		67116AA21CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashingTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmashingTV.app/SmashingTV";
+			};
+			name = Release;
+		};
+		67116AA41CD19BD00029F2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashingTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmashingTV;
+			};
+			name = Debug;
+		};
+		67116AA51CD19BD00029F2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashingTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsb.SmashingTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmashingTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67116A731CD19BCF0029F2BA /* Build configuration list for PBXProject "SmashingTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116A9B1CD19BD00029F2BA /* Debug */,
+				67116A9C1CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67116A9D1CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116A9E1CD19BD00029F2BA /* Debug */,
+				67116A9F1CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67116AA01CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116AA11CD19BD00029F2BA /* Debug */,
+				67116AA21CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67116AA31CD19BD00029F2BA /* Build configuration list for PBXNativeTarget "SmashingTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67116AA41CD19BD00029F2BA /* Debug */,
+				67116AA51CD19BD00029F2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67116A701CD19BCF0029F2BA /* Project object */;
+}
