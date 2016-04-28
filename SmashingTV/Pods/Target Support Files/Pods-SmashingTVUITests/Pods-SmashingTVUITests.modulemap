@@ -1,0 +1,6 @@
+framework module Pods_SmashingTVUITests {
+  umbrella header "Pods-SmashingTVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

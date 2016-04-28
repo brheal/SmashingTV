@@ -1,0 +1,6 @@
+framework module Pods_SmashingTV {
+  umbrella header "Pods-SmashingTV-umbrella.h"
+
+  export *
+  module * { export * }
+}
