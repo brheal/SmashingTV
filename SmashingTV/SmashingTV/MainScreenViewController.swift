@@ -9,10 +9,14 @@
 import UIKit
 
 class MainScreenViewController: UIViewController {
+    @IBOutlet weak var refreshTimerLabel: UILabel!
     @IBOutlet weak var leaderTableView: UITableView!
     @IBOutlet weak var allTimeScore: UILabel!
     @IBOutlet weak var allTimePlayer: UILabel!
     private var leaders:[Leader] = [Leader]()
+    private var refreshTimer:NSTimer?
+    private var refreshTime:Int = 30
+    private var countDownTimer:NSTimer?
     override func viewDidLoad() {
         super.viewDidLoad()
         leaderTableView.delegate = self
@@ -26,6 +30,21 @@ class MainScreenViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         reloadData()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        countDownTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(adjustCountdownTimer), userInfo: nil, repeats: true)
+        refreshTimer = NSTimer.scheduledTimerWithTimeInterval(30.0, target: self, selector: #selector(reloadData), userInfo: nil, repeats: true)
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        countDownTimer?.invalidate()
+        countDownTimer = nil
+        refreshTimer?.invalidate()
+        refreshTimer = nil
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,6 +85,16 @@ extension MainScreenViewController : UITableViewDelegate, UITableViewDataSource 
         return cell
     }
     
+    func adjustCountdownTimer() {
+        print(countDownTimer?.fireDate)
+        if self.refreshTime != 0 {
+            self.refreshTime -= 1
+        } else {
+            self.refreshTime = 30
+        }
+        self.refreshTimerLabel.text = "\(self.refreshTime)"
+    }
+    
     func reloadData() {
         GameStore.shared.getTopScores { (leaders, error) in
             dispatch_async(dispatch_get_main_queue(), { 
@@ -73,7 +102,7 @@ extension MainScreenViewController : UITableViewDelegate, UITableViewDataSource 
                 if let firstLeader = self.leaders.first {
                     self.allTimePlayer.text = firstLeader.leaderName
                     if firstLeader.leaderScore != nil {
-                        self.allTimeScore.text = "\(firstLeader.leaderScore)"
+                        self.allTimeScore.text = "\(firstLeader.leaderScore!)"
                     }
                 }
                 self.leaderTableView.reloadData()

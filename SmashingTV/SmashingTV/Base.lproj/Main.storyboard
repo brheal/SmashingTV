@@ -50,9 +50,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Refresh Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMW-Ky-UA5">
+                                <rect key="frame" x="20" y="1039" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="cMW-Ky-UA5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Jv-rp-UV4"/>
                             <constraint firstItem="ezW-jg-Qtz" firstAttribute="leading" secondItem="cm3-Dc-onB" secondAttribute="trailing" constant="50" id="9Kf-zb-oD2"/>
                             <constraint firstItem="9QU-yT-Ebe" firstAttribute="top" secondItem="cm3-Dc-onB" secondAttribute="bottom" constant="50" id="B82-Sv-v3b"/>
                             <constraint firstItem="ezW-jg-Qtz" firstAttribute="leading" secondItem="FH3-P1-NBG" secondAttribute="trailing" constant="55" id="H0W-NS-Nfs"/>
@@ -66,12 +73,14 @@
                             <constraint firstItem="cm3-Dc-onB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="iHz-iq-hY8"/>
                             <constraint firstItem="ezW-jg-Qtz" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1/2" id="oef-5F-WbG"/>
                             <constraint firstItem="ezW-jg-Qtz" firstAttribute="leading" secondItem="9QU-yT-Ebe" secondAttribute="trailing" constant="8" id="w9G-Mw-195"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cMW-Ky-UA5" secondAttribute="bottom" constant="20" id="xxe-Fp-UJk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="allTimePlayer" destination="9QU-yT-Ebe" id="nYP-XM-Y81"/>
                         <outlet property="allTimeScore" destination="cm3-Dc-onB" id="Pov-mm-Xho"/>
                         <outlet property="leaderTableView" destination="ezW-jg-Qtz" id="hMp-H1-5De"/>
+                        <outlet property="refreshTimerLabel" destination="cMW-Ky-UA5" id="qsh-uN-hB4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
