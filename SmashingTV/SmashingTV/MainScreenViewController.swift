@@ -14,7 +14,6 @@ class MainScreenViewController: UIViewController {
     @IBOutlet weak var allTimeScore: UILabel!
     @IBOutlet weak var allTimePlayer: UILabel!
     private var leaders:[Leader] = [Leader]()
-    private var refreshTimer:NSTimer?
     private var refreshTime:Int = 30
     private var countDownTimer:NSTimer?
     override func viewDidLoad() {
@@ -34,17 +33,13 @@ class MainScreenViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        countDownTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(adjustCountdownTimer), userInfo: nil, repeats: true)
-        refreshTimer = NSTimer.scheduledTimerWithTimeInterval(30.0, target: self, selector: #selector(reloadData), userInfo: nil, repeats: true)
-        
+        countDownTimer = NSTimer.scheduledTimerWithTimeInterval(10.0, target: self, selector: #selector(adjustCountdownTimer), userInfo: nil, repeats: true)
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         countDownTimer?.invalidate()
         countDownTimer = nil
-        refreshTimer?.invalidate()
-        refreshTimer = nil
     }
 
     override func didReceiveMemoryWarning() {
@@ -91,11 +86,12 @@ extension MainScreenViewController : UITableViewDelegate, UITableViewDataSource 
     
     func adjustCountdownTimer() {
         if self.refreshTime != 0 {
-            self.refreshTime -= 1
+            self.refreshTime -= 10
         } else {
             self.refreshTime = 30
         }
         self.refreshTimerLabel.text = "\(self.refreshTime)"
+        reloadData()
     }
     
     func reloadData() {
